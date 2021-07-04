@@ -1,0 +1,6 @@
+"""Configuration file to store user information and API credentials"""
+
+USERNAME = your_username
+CLIENT_ID = your_client_id
+CLIENT_SECRET = your_client_secret
+REDIRECT_URI = https://localhost:8080
