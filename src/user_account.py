@@ -15,9 +15,6 @@ class UserAccount:
         self._username, self._client_id, self._client_secret, self._redirect_uri = self.get_credentials()
         self._scope = 'playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public'
         self._cache_path = f'{Path(__file__).resolve().parents[1]}/cache/.cache-{self._username}'
-        #self._client_id = os.environ.get('SPOTIPY_CLIENT_ID')
-        #self._client_secret = os.environ.get('SPOTIPY_CLIENT_SECRET')
-        #self._redirect_uri = 'http://localhost:8080'
 
     def get_credentials(self):
         """Reads credentials from config.txt"""
