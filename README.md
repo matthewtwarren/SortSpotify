@@ -1,4 +1,4 @@
-# SpotifyDJ Tools <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" align="left" width="20" style="height: 20px; width: px;"/>
+# SpotifyDJ Tools <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" align="left" width="30" style="height: 20px; width: px;"/>
 Tools for DJs to create and manage Spotify playlists, including filtering and sorting tracks by tempo and key. Special thanks to Spotify for removing third-party DJ support and another reason to make this app :clap:
 
 ## Features
