@@ -24,6 +24,7 @@ class PlaylistLibrary:
         else:
             for playlist in self._all_playlists:
                 print(playlist)
+        print()
 
     def select_playlist(self,function):
         """Selects the playlist based on user input or automatically if there is only one playlist in the library.
@@ -58,14 +59,18 @@ class PlaylistLibrary:
         """Filter tracks in a playlist"""
 
         playlist_selection = self.select_playlist("filter")
-        feature_selection = input("How would you like to filter the playlist (by tempo or key)?: ")
-        if feature_selection.lower() == "tempo":
-            filter_selection = input("Please enter a BPM range (e.g. 110:120): ")
-            filter_formatted = [*map(float,filter_selection.split(":"))]
-            playlist_selection.filter_tracks_by_tempo(filter_formatted, user_account)
-        elif feature_selection.lower() == "key":
-            filter_selection = input("Please enter the keys using Camelot notation (e.g. 11B,12B,12A): ")
-            filter_formatted = [key for key in filter_selection.split(",")]
-            playlist_selection.filter_tracks_by_key(filter_formatted, user_account)
+        if len(playlist_selection._tracks) > 0:
+            feature_selection = input("How would you like to filter the playlist (by tempo or key)?: ")
+            if feature_selection.lower() == "tempo":
+                filter_selection = input("Please enter a BPM range (e.g. 110:120): ")
+                filter_formatted = [*map(float,filter_selection.split(":"))]
+                playlist_selection.filter_tracks_by_tempo(filter_formatted, user_account)
+            elif feature_selection.lower() == "key":
+                filter_selection = input("Please enter the keys using Camelot notation (e.g. 11B,12B,12A): ")
+                filter_formatted = [key for key in filter_selection.split(",")]
+                playlist_selection.filter_tracks_by_key(filter_formatted, user_account)
+            else:
+                print("Please enter a valid selection. Tracks can only be filtered by tempo or key\n.")
         else:
-            print("Please enter a valid selection. Tracks can only be filtered by tempo or key.")
+            print("Your playlist is empty. Add to the playlist before filtering.\n")
+            return
