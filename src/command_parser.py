@@ -43,7 +43,8 @@ class CommandParser:
             elif response.lower() == "n":
                 ascending_order = False
             else:
-                pass
+                print("Please enter either Y or N.\n")
+                return
             playlist.sort_tracks_by_tempo(self._account, ascending_order)
 
         elif command.lower() == "add to spotify":
