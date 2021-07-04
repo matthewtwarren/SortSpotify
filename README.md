@@ -1,4 +1,4 @@
-# SpotifyDJ Tools <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" align="left" width="20" style="height: 20px; width: px;"/>
+# SpotifyDJ Tools <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" align="left" width="20" style="height: 20px; width: 20px;"/>
 Tools for DJs to create and manage Spotify playlists, including filtering and sorting tracks by tempo and key. Special thanks to Spotify for removing third-party DJ support and another reason to make this app :clap:
 
 ## Features
@@ -15,12 +15,10 @@ Tools for DJs to create and manage Spotify playlists, including filtering and so
 ## Installation
 
 - Clone the repository
-
   ```
-  git clone --recurse-submodules https://github.com/mcieno/spotify-sort-by-release.git`
+  git clone --recurse-submodules https://github.com/mcieno/spotify-sort-by-release.git
   ```
 - Install the requirements
-
   ```
   cd spotify-sort-by-release
   pip install -r requirements.txt
@@ -39,7 +37,7 @@ SpotifyDJ can be used as a command line tool.
 - Open your terminal, navigate to the `SpotifyDJ` directory and run:
 
 ```
-python -m src.run`
+python -m src.run
 ```
 
 If it's your first time running the code, you will need to authenticate the app and give it permission to access you Spotify data. An internet browser tab should open to do this.
