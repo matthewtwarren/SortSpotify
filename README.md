@@ -41,7 +41,7 @@ python -m src.run
 ```
 
 If it's your first time running the code, you will need to authenticate the app and give it permission to access your Spotify data. An internet browser tab should open automatically to do this.
-- Once started, commands can be executed by entering the name of a command. A list of ommands can be found by typing `HELP`
+- Once started, commands can be executed by entering the name of a command. A list of commands can be found by typing `HELP`
 
 ```
 SDJ> create playlist
