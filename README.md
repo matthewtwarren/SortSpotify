@@ -50,7 +50,7 @@ SDJ> create playlist
 SDJ> sort playlist
 ```
 
-Please also note: playlists are not added to you Spotify library when they are created. To add a playlist to you library, run:
+Please also note: playlists are not automatically added to your Spotify library when they are created using this tool. To add a playlist to your library, run:
 ```
 SDJ> add to spotify
 ```
