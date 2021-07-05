@@ -16,11 +16,11 @@ Tools for (amateur) DJs to create and manage Spotify playlists, including filter
 
 - Clone the repository
   ```
-  git clone --recurse-submodules https://github.com/mcieno/spotify-sort-by-release.git
+  git clone --recurse-submodules https://github.com/matthewtwarren/SpotifyDJ.git
   ```
 - Install the requirements
   ```
-  cd spotify-sort-by-release
+  cd SpotifyDJ
   pip install -r requirements.txt
   ```
 ## Setup
