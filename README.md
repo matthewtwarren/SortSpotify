@@ -1,5 +1,5 @@
-# SpotifyDJ Tools <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" align="left" width="20" style="height: 20px; width: 30px;"/>
-Tools for (amateur) DJs to create and manage Spotify playlists, including filtering and sorting tracks by tempo and key. Special thanks to Spotify for removing third-party DJ software support and for another reason to make this app :clap:
+# SortSpotify <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" align="left" width="20" style="height: 20px; width: 30px;"/>
+Command-line tool for managing Spotify playlists, including filtering and sorting playlists by track tempo and key.
 
 ## Features
 
@@ -16,11 +16,11 @@ Tools for (amateur) DJs to create and manage Spotify playlists, including filter
 
 - Clone the repository
   ```
-  git clone --recurse-submodules https://github.com/matthewtwarren/SpotifyDJ.git
+  git clone --recurse-submodules https://github.com/matthewtwarren/SortSpotify.git
   ```
 - Install the requirements
   ```
-  cd SpotifyDJ
+  cd SortSpotify
   pip install -r requirements.txt
   ```
 ## Setup
@@ -32,9 +32,9 @@ Tools for (amateur) DJs to create and manage Spotify playlists, including filter
 
 ## Usage
 
-SpotifyDJ can be used as a command line tool
+SortSpotify can be used as a command line tool
 
-- Open your terminal, navigate to the `SpotifyDJ` directory and run:
+- Open your terminal, navigate to the `SortSpotify` directory and run:
 
 ```
 python -m src.run
@@ -59,7 +59,7 @@ SDJ> add to spotify
 
 - Below is an example demonstrating how to create a playlist, add tracks to the playlist, filter the playlist to only contain tracks with BPM between 115 and 125, before then adding the playlist to your Spotify library
 ```
-Welcome to SpotifyDJ: A command-line interface for managing and creating Spotify playlists.
+Welcome to SortSpotify: A command-line interface for managing and creating Spotify playlists.
 Type HELP for list of available commands or EXIT to terminate.
 
 SDJ> create playlist
@@ -94,5 +94,5 @@ SDJ> add to spotify
 Playlist added to your Spotify library.
 
 SDJ> exit
-SpotifyDJ has terminated.
+SortSpotify has terminated.
 ```
