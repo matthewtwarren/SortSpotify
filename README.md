@@ -16,7 +16,7 @@ Command-line tool for managing Spotify playlists, including filtering and sortin
 
 - Clone the repository
   ```
-  git clone --recurse-submodules https://github.com/matthewtwarren/SortSpotify.git
+  git clone https://github.com/matthewtwarren/SortSpotify.git
   ```
 - Install the requirements
   ```
