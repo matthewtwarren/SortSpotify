@@ -1,4 +1,5 @@
-# SortSpotify <img src="logo.png" align="left" style="height: 60px; width: 95px;">
+<h1 align="center"> SortSpotify </h1>
+<img src="logo.png" align="left">
 
 Command-line tool for managing Spotify playlists, including filtering and sorting playlists by track tempo and key.
 
